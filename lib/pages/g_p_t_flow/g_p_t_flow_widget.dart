@@ -325,7 +325,7 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                                                                 r'''$['content']''',
                                                                               ).toString(),
                                                                               style: FlutterFlowTheme.of(context).subtitle1.override(
-                                                                                    fontFamily: 'Plus Jakarta Sans',
+                                                                                    fontFamily: 'Roboto',
                                                                                     color: FlutterFlowTheme.of(context).primaryBtnText,
                                                                                     fontSize: 14.0,
                                                                                     lineHeight: 1.5,
@@ -605,7 +605,7 @@ class _GPTFlowWidgetState extends State<GPTFlowWidget> {
                                           .sendFullPromptCall
                                           .call(
                                     apiKey:
-                                        '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',
+                                        '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',
                                     promptJson: _model.chatHistory,
                                   );
                                   if ((_model.chatGPTResponse?.succeeded ??
